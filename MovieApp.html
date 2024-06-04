@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search and Favorites</title>
+    <link rel="stylesheet" href="MovieApp.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Search</h1>
+        <input type="text" id="search-input" placeholder="Search for a movie...">
+        <button id="search-button">Search</button>
+        <button id="favorites-button" class="favorite-button">Favorites >>></button>
+    </header>
+    
+    <div class="container">
+        <div id="movies-container"></div>
+        <div id="favorites-sidebar" class="favorites-sidebar">
+            <h2>Favorites</h2>
+            <ul id="favorites-list" class="favorites-list"></ul>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <script src="MovieApp.js"></script>
+</body>
+</html>
